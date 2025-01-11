@@ -1,5 +1,78 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Navigation bar */
+.nav-bar {
+  display: flex; /* Align tabs and button in a row */
+  justify-content: space-between; /* Space out the tabs and login button */
+  align-items: center; /* Vertically center the items */
+  padding: 20px;
+  background-color: #333;
+}
+
+
+/* Style for the tab container */
+.tabs {
+  background-color: lightblue;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tab {
+  text-decoration: none;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab:hover {
+  background-color: #ddd;
+  color: #007BFF;
+}
+
+.tab:active {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+/* Style the login button */
+.login-btn {
+  text-decoration: none;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+.login-btn:hover {
+  background-color: #ddd;
+  color: #007BFF;
+}
+.login-btn:active {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+
 h1 {
-    color : red;
+    color : white;
+    background-color: lightblue;
 }
 
 body {

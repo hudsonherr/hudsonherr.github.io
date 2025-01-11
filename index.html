@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="app.css"/>
+        <title>The Water Challenge</title>
+
+        <style>
+            .center-header {
+            text-align: center; /* This centers the heading horizontally */
+            }
+        </style>
     </head>
     <body>
+        <div class="navigation-bar">
+            <!-- Tabs -->
+            <div class="tabs">
+                <a href="index.html" class="tab">Home</a>
+                <a href="waterTips.html" class="tab">Tips</a>
+                <a href="login.html" class="tab">Log In</a>
+            </div>
 
-        <h1>The Water Challenge</h1>
+            <!-- Login Button -->
+            <button class="login-btn">Login</button>
+        </div>
+        
 
-        <p>Click on the button below to display the hidden content from the template element.</p>
+        
 
-        <button onClick="alertButton()">Show hidden content</button>
+        <div class="header">
+            <h1 class="center-header">The Water Challenge</h1>
+        </div>
+
+        <div class="content">
+            <p>Write an explanation of what the competition is and how this website works.</p>
+
+            <button onClick="alertButton()">Show popup</button>
+        </div>
+
+        
+
+
 
         <template>
             <h2>Flower</h2>
             <img src="water_symbol.avif" width="214" height="204">
         </template>
-        <h1> test</h1>
         
         
     </body>
